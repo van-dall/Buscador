@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>buscador</title>
+    <script src="busca.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form id="form" onsubmit="return buscarDados()">
+        <p>
+            <label for="url">URL: </label>
+            <input id="url" type="url" size="100">
+            <input type="submit" value="Buscar">
+        </p>
+        <label for="resultado">Resultado: </label>
+        <textarea id="resultado" cols="100" rows="100">
+        </textarea>
+    </form>
+</body>
+</html>

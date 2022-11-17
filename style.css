@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #ff0000 0%, #ff7300 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-style:oblique ;
+    color: aliceblue;
+    
+}
+
+textarea {
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(175, 175, 175, 0.39);
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+input {
+    justify-content: center;
+    align-items: center;
+    border width: 5px;
+    border radius: 5px;
+}
